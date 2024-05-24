@@ -1,0 +1,187 @@
+.icon-card {
+    text-align: center;
+    margin: 10px;
+    padding: 16px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .icon {
+    font-size: 80px;
+    margin-bottom: 40px;
+    color: orange;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .see-all {
+    display: none;
+  }
+
+  .see-all-btn {
+    margin-top: 20px;
+  }
+
+
+
+
+         /* Dropdown Button */
+.dropbtn {
+  
+    color: black;
+    padding: 10px;
+    font-size: 5px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: None;
+    position: absolute;
+    background-color: white;
+    min-width: 210px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: var(--dark);
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+    line-height:8px;
+    
+   
+  
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: var(--orange);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
+  
+  
+  
+  /* Dropdown content2 (hidden by default) */
+  .dropdown-conf {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 300%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Mega Menu header, if needed */
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-conf {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .colum {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #fff;
+    height: 200px;
+  }
+  
+  /* Style links inside the columns */
+  .colum a {
+    float: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a background color on hover */
+  .colum a:hover {
+    background-color: orange;
+  }
+  
+  /* Clear floats after the columns */
+  .ro:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+  
+  /* Dropdown content 3 (hidden by default) */
+  .dropdown-con {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 300%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Mega Menu header, if needed */
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-con {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .coli {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #fff;
+    height: 200px;
+  }
+  
+  /* Style links inside the columns */
+  .coli a {
+    float: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a background color on hover */
+  .coli a:hover {
+    background-color: orange;
+  }
+  
+  /* Clear floats after the columns */
+  .rn:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+     
